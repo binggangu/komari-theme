@@ -2,7 +2,6 @@
 import { Icon } from '@iconify/vue'
 import { computed, inject, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
 import VisitorInfo from '@/components/VisitorInfo.vue'
@@ -12,8 +11,6 @@ const router = useRouter()
 const appStore = useAppStore()
 
 const isScrolled = inject<ReturnType<typeof ref<boolean>>>('isScrolled', ref(false))
-
-const siteFavicon = ref('/favicon.ico')
 
 const actionButtons = computed(() => {
   const themeTitleMap = {
