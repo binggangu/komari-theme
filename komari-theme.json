@@ -4,7 +4,7 @@
   "description": "A Glassmorphism theme for Komari with China Unicom, China Telecom and China Mobile latency/loss panels",
   "version": "2.4.0",
   "author": "sanrokamlan",
-  "url": "https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism",
+  "url": "https://github.com/binggangu/komari-theme",
   "preview": "preview-v2.0.0.png",
   "configuration": {
     "type": "managed",
